@@ -6,7 +6,7 @@ function GFL_StartAddon()
  for _,initialize in ipairs(GFL_StartupModules or {})do initialize()end
  GFL_StartupModules=nil
  GFL_Saved.jumpDebug=nil;GFL_Saved.journalManualTrace=nil
- GFL_Saved.startup={version='1.4.8',language=GFL_L10N.language,restoredChoice=GFL_Language or GFL_Saved.language,cacheCount=GFL_Cache.cached}
+ GFL_Saved.startup={version='1.4.9',language=GFL_L10N.language,restoredChoice=GFL_Language or GFL_Saved.language,cacheCount=GFL_Cache.cached}
 end
 driver:RegisterEvent('ADDON_LOADED');driver:RegisterEvent('PLAYER_LOGIN')
 driver:SetScript('OnEvent',function(_,event,name)

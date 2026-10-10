@@ -206,7 +206,7 @@ english["左键：打开  |  右键：菜单"]="Left: open | Right: menu"
 english[" · 滚轮滚动"]=" · Mouse wheel to scroll"
 english["物品 ID "]="Item ID "
 english[" 个来源 · 滚轮滚动"]=" sources · Scroll with mouse wheel"
-english["Grimfall 掉落查询 v1.3.1"]="Grimfall Loot v1.4.8"
+english["Grimfall 掉落查询 v1.3.1"]="Grimfall Loot v1.4.9"
 english["右键装备加入收藏。\n这里独立显示全部收藏。"]="Right-click items to add favorites.\nAll favorites appear here."
 english[" 个物品 · 滚轮滚动"]=" items · Mouse wheel to scroll"
 english["收藏装备 ("]="Favorites ("
@@ -214,7 +214,7 @@ english[" 个收藏"]=" favorites"
 english[" · 装等 "]=" · iLvl "
 english["18,613 个指南物品ID · 来源不保证实际掉落 · 未返回 "]="18,613 journal items · Actual drops unverified · Missing "
 english[" · /gfl cache retry 重试"]=" · /gfl cache retry to retry"
-english["GrimfallLoot v1.3.1：207 个掉落副本，1126 位首领，18613 个物品ID。"]="GrimfallLoot v1.4.8: 207 loot instances, 1126 bosses, 18613 item IDs."
+english["GrimfallLoot v1.3.1：207 个掉落副本，1126 位首领，18613 个物品ID。"]="GrimfallLoot v1.4.9: 207 loot instances, 1126 bosses, 18613 item IDs."
 english["（阵营限制标记 "]=" (faction restriction flag "
 english["装等 "]="iLvl "
 english["部位 "]="Slot "
@@ -248,7 +248,7 @@ english[' · 已处理 ']=' · Processed '
 english[' · 缓存成功 ']=' · Cached '
 function GFL_L10N.Text(s)
  if language=='enUS' then return ((english[s] or s):gsub('（',' ('):gsub('）',')'):gsub('：',': '):gsub('；','; ')) end
- return (s:gsub('v1%.3%.1','v1.4.8'))
+ return (s:gsub('v1%.3%.1','v1.4.9'))
 end
 if language=='enUS' then
  for _,dictionary in ipairs({GFL_DB.instances,GFL_DB.encounters,GFL_DB.tiers}) do

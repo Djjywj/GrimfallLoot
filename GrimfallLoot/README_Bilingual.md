@@ -2,7 +2,17 @@
 
 在游戏里查装备、看来源、收藏想要的装备。支持**简体中文 / English**，不用安装 AtlasLoot。
 
-**[下载最新版](https://github.com/Djjywj/GrimfallLoot/releases/latest)** · 当前版本 **v1.4.8**
+**[下载最新版](https://github.com/Djjywj/GrimfallLoot/releases/latest)** · 当前版本 **v1.4.9**
+
+## 内置缓存版
+
+本版自带 **7,756 条已读取的装备信息**，安装后自动导入，不用从零读取这些物品。
+
+普通玩家直接下载安装，无需复制任何文件到 WTF。已经装过的玩家替换插件文件夹，保留 WTF：已有有效缓存不会被覆盖，收藏和语言设置不变。
+
+共享的是装备信息，不含提供者的收藏、账号设置和失败记录。其他尚未读取的物品仍按原逻辑处理一次，游戏不返回就跳过，不重试。不同客户端版本的装备数值可能变化，缓存不是服务器实时数据。
+
+English: Includes **7,756 cached item records**. Install normally; they are imported automatically. Existing valid cache, favorites and language settings are preserved. No donor settings or failed-ID history are included. Remaining IDs are processed once without retries. Cached stats may differ between client versions.
 
 ## 能做什么
 
@@ -18,7 +28,7 @@
 
 ## 怎么安装
 
-1. 在 [下载页](https://github.com/Djjywj/GrimfallLoot/releases/latest) 下载 **`GrimfallLoot-v1.4.8.zip`**。
+1. 在 [下载页](https://github.com/Djjywj/GrimfallLoot/releases/latest) 下载 **`GrimfallLoot-v1.4.9.zip`**。
 2. 退出游戏，解压，把 `GrimfallLoot` 文件夹放到 `游戏目录\Interface\AddOns\`。
 3. 进入游戏，点小地图上的宝箱图标打开。也可以输入 `/gfl`。
 
@@ -48,7 +58,7 @@
 
 An independent item browser for the custom Grimfall client. Search items by name or ID, browse journal sources, filter equipment and save favorites. No AtlasLoot dependency.
 
-Download **`GrimfallLoot-v1.4.8.zip`** from [Releases](https://github.com/Djjywj/GrimfallLoot/releases/latest). Place the `GrimfallLoot` folder in `Interface\AddOns`, then open it with the minimap chest icon or `/gfl`. Keep WTF when upgrading.
+Download **`GrimfallLoot-v1.4.9.zip`** from [Releases](https://github.com/Djjywj/GrimfallLoot/releases/latest). Place the `GrimfallLoot` folder in `Interface\AddOns`, then open it with the minimap chest icon or `/gfl`. Keep WTF when upgrading.
 
 - Left-click: select; **Sources**: view instance, boss and difficulty.
 - Right-click: favorite / remove from Favorites.

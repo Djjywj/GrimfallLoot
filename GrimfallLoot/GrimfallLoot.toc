@@ -1,7 +1,7 @@
 ## Interface: 30300
 ## Title: Grimfall Loot / 装备查询
 ## Notes: English / Chinese loot browser, favorites and automatic cache.
-## Version: 1.4.8
+## Version: 1.4.9
 ## SavedVariables: GFL_Saved, GFL_Language
 Catalog.lua
 Drops1.lua
@@ -64,6 +64,7 @@ Names49.lua
 Names50.lua
 Names51.lua
 ItemMeta.lua
+SeedData.lua
 SeedCache.lua
 Locale.lua
 Model.lua
